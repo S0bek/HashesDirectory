@@ -15,8 +15,8 @@ print "$ref->{'test'}\n";#2eme methode: on affiche directement la valeur contenu
 #EXEMPLE 2: STRUCTURES PLUS COMPLEXES
 #On va afficher la cle contenue dans un hash, lui meme contenu dans un autre hash:
 
-my $employe1 = { 'id' => "A579358" , 'prenom' => "David" , 'nom' => "FEDER" , 'description' => "Employe de l\'annee\!" };
-my $employe2 = {'id' => "XXXXX" , 'prenom' => "Samuel" , 'nom' => "BROUAT" , 'description' => "Charlatan"};
+my $employe1 = { 'id' => "A579358" , 'prenom' => "David" , 'nom' => "Webb" , 'description' => "Jason BOURNE!" };
+my $employe2 = {'id' => "XXXXX" , 'prenom' => "Matt" , 'nom' => "DAMON" , 'description' => "acteur du projet TreadStone"};
 my %employes = ( 'employe1' => $employe1 , 'employe2' => $employe2);#On met en place un employe dans la liste des employes de la societe
 
 #On va afficher les elements de chacun des employes:
