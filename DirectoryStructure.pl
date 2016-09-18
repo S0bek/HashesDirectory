@@ -10,7 +10,7 @@ my %hosts;
 my %groups;
 
 #On peut utiliser les references de hash comme des objets contenant des donnees stockees dans leurs attributs
-my $host = {'cn' => 'zeq330mz' , 'ou' => "dc=erdfdistribution,dc=fr" , 'description' => "Serveur de qualif"};
+my $host = {'cn' => 'zeq330mz' , 'ou' => "dc=domain,dc=fr" , 'description' => "Serveur de qualif"};
 my $group = {'cn' => "sip" , 'description' => "Groupe permettant d\'utiliser les commandes root"};
 
 #On lie le serveur au groupe via le netgroup en question
